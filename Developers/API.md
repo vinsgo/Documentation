@@ -516,13 +516,14 @@ For example: ``get_balances``, ``get_credits``, ``get_debits``, etc are all vali
 
 ###get_tx_info
 
-**get_tx_info(tx_hex)**
+**get_tx_info(tx_hex, block_index=None)**
 
 Gets information on a transaction.
 
 **Parameters:**
 
   * **tx_hex(string):** The canonical hexadecimal serialization of the transaction (not its hash)
+  * **block_index:** The block index of the transaction. Mandatory to get a correct result for transactions before block 335000
 
 **Return:**
 
