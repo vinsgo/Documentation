@@ -35,7 +35,7 @@ Yes. You can make a regular Bitcoin paper wallet and store them there. Later, yo
 
 ### How does the Counterparty protocol achieve consensus? 
 
-The local Counterparty SQLite database is like the Bitcoin LevelDB database—independent of the consensus mechanism. What goes in the database s the parsed blockchain data: debits, credits, etc. Counterparty only uses prunable outputs to store its data. 
+The local Counterparty SQLite database is like the Bitcoin LevelDB database—independent of the consensus mechanism. What goes in the database is the parsed blockchain data: debits, credits, etc. Counterparty only uses prunable outputs to store its data. 
 
 ### What are the risks to consensus?
 
